@@ -684,8 +684,8 @@ async def auto_filter(client, msg, spoll=False):
         )
 
     btn.insert(0, [
-        InlineKeyboardButton("✘ Movie Updates", url="https://t.me/MoviGenX"),
-        InlineKeyboardButton("Bot Updates ✘", url="https://t.me/MoviZenXFlix")]
+        InlineKeyboardButton("🎯 Movie Updates", url="https://t.me/MoviGenX"),
+        InlineKeyboardButton("Bot Updates 🎯", url="https://t.me/MoviZenXFlix")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
